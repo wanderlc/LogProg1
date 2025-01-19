@@ -1,15 +1,12 @@
 import java.util.Scanner;
-
 public class Calcula {
     public static void main(String[] args) {
         Scanner valor = new Scanner(System.in);
         double[] valores = new double[5];
-
         for (int i = 0; i < 5; i++) {
             System.out.print("Digite o " + (i + 1) + "° valor bruto: ");
             valores[i] = valor.nextDouble();
         }
-
         for (double valorBruto : valores) {
             double descInss = CalculaInss.calcula(valorBruto);
             double descIr = CalculaIr.calcula(valorBruto);

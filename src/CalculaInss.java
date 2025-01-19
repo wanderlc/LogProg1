@@ -1,7 +1,6 @@
 public class CalculaInss {
     public static double calcula(double valor) {
         double desc = 0;
-
         if (valor <= 1212.00) {
             desc = valor * 0.075;
         } else if (valor <= 2427.35) {

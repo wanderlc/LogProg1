@@ -1,7 +1,6 @@
 public class CalculaIr {
     public static double calcula(double valor) {
         double desc = 0;
-
         if (valor <= 1903.98) {
             desc = 0;
         } else if (valor <= 2826.65) {
